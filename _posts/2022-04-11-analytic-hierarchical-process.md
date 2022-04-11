@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "Benefits of the analytic hierarchical process"
+author: Bruce R Graham
+categories: [ operational research ]
+---
+
 Bruce Graham
 
 
