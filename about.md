@@ -1,4 +1,4 @@
 # About
 
-This is where you put the contents of your *About* page. Like all your pages, it's in [Markdown](https://guides.github.com/features/mastering-markdown/) format.
+Mojojojoe is a freelance writer on finance and technology. He is a long time free software geek and likes to punt Emacs. 
 
