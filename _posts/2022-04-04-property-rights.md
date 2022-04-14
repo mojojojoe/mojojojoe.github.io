@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "Property rights in the 21st Century"
+author: Bruce R Graham
+categories: [ financial ]
+---
+
 
 
 The extraordinary innovation taking place in the blockchain sphere brings fundamental change to an individual's ability to own and profit from digital and intellectual property through nonfungible tokens (NFTs) and the smart contract.
