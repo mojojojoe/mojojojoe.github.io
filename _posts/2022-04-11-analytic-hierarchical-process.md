@@ -5,8 +5,7 @@ author: Bruce R Graham
 categories: [ operational research ]
 ---
 
-Bruce Graham
-
+![Rational choices!](/images/rational.jpg)
 
 One of the most inspiring techniques I learnt as a student of operational research yonkers ago was a procedure called the analytical hierarchical process. It was invented by Saaty in 1980.
 
@@ -28,16 +27,11 @@ The final step is to encode the information into a specially formatted configura
 
 The AHP algorithm yields a matrix of preferences per decision type. The perferences are a percentage showing the importance of each category to the decision. A final decision can also be reached and gives you an accurate idea of the choices you need to make to optimally make the decision.
 
-As an example, [[~/dev/my-dev/ahp/house4.ahp][this]] is a model configuration to choose a house.
+As an example, [this](/assets/house4.ahp) is a model configuration to choose a house.
 
 Running this model in R, a decision matrix is generated.
 
-                Weight HOUSE2 HOUSE1 HOUSE6 HOUSE4 HOUSE3 HOUSE5 Inconsistency
-1 BUY           100.0%  31.4%  22.0%  15.2%  11.7%   9.8%   9.8%         41.3%
-2  ¦--LIGHT      59.4%  29.4%  14.6%   4.5%   5.7%   1.6%   3.6%          3.6%
-3  ¦--WORK_PROX  26.6%   0.9%   0.9%   9.8%   4.2%   5.9%   5.0%          1.3%
-4  ¦--EE         10.9%   0.8%   6.0%   0.4%   1.3%   1.8%   0.6%          3.1%
-5  °--COST        3.0%   0.4%   0.6%   0.5%   0.6%   0.4%   0.6%          0.0%
+![Decision matrix](/images/decision-matrix.jpg)
 
 This matrix, based on the pairwise comparisons of the decision makers, shows that LIGHT is the most important criteria in deciding on a new house for this decision maker. Further, HOUSE2 has the best light and overall it is the best house amongst the choices.
 

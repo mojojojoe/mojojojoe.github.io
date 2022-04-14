@@ -1,0 +1,220 @@
+Version: 2.0
+Alternatives: &alternatives
+  HOUSE1:
+    COST: 20360
+    LIGHT: 31
+    EE: 8
+    WORK_PROX: 14
+  HOUSE2:
+    COST: 31090
+    LIGHT: 35
+    EE: 3
+    WORK_PROX: 14
+  HOUSE3:
+    COST: 27595
+    LIGHT: 22
+    EE: 5
+    WORK_PROX: 87.6
+  HOUSE4:
+    COST: 20700
+    LIGHT: 27
+    EE: 4
+    WORK_PROX: 72.9
+  HOUSE5:
+    COST: 18980
+    LIGHT: 25
+    EE: 2
+    WORK_PROX: 74.6
+  HOUSE6:
+    COST: 25645
+    LIGHT: 26
+    EE: 1
+    WORK_PROX: 147.4
+
+Goal:
+  name: BUY
+  description: |    
+    Buy a house according to criteria with a mix of decision making contributors.
+  author: Bruce Graham
+  decision-makers:
+    - Dad:  0.5
+    - Mom:  0.4
+    - Kid1: 0.1
+  preferences:
+    Dad:
+      pairwise:
+        - [LIGHT, EE, 3]
+        - [LIGHT, WORK_PROX, 7]
+        - [LIGHT, COST, 8]
+        - [WORK_PROX, EE, 7]
+        - [EE, COST, 7]
+        - [WORK_PROX, COST, 8]
+    Mom:
+      pairwise:
+        - [LIGHT, EE, 3]
+        - [LIGHT, WORK_PROX, 7]
+        - [LIGHT, COST, 8]
+        - [WORK_PROX, EE, 7]
+        - [EE, COST, 7]
+        - [WORK_PROX, COST, 8]
+    Kid1:
+      pairwise:
+        - [LIGHT, EE, 3]
+        - [LIGHT, WORK_PROX, 7]
+        - [LIGHT, COST, 8]
+        - [WORK_PROX, EE, 7]
+        - [EE, COST, 7]
+        - [WORK_PROX, COST, 8]
+  children:  
+    LIGHT: 
+      preferences:
+        Dad:
+          pairwiseFunction: |
+            getLIGHTpref <- function(a1, a2) {	  
+            if (a1$LIGHT < a2$LIGHT) return (1/getLIGHTpref(a2, a1))
+            r <- a1$LIGHT / a2$LIGHT
+            if (r < 1.05) return (1)
+            if (r < 1.10) return (2)
+            if (r < 1.15) return (3)
+            if (r < 1.20) return (4)
+            if (r < 1.25) return (5)
+            if (r < 1.30) return (6)
+            if (r < 1.40) return (7)
+            if (r < 1.50) return (8)
+            else return (9)
+            }
+        Mom:
+          pairwiseFunction: |
+            getLIGHTpref <- function(a1, a2) {	  
+            if (a1$LIGHT < a2$LIGHT) return (1/getLIGHTpref(a2, a1))
+            r <- a1$LIGHT / a2$LIGHT
+            if (r < 1.05) return (1)
+            if (r < 1.10) return (2)
+            if (r < 1.15) return (3)
+            if (r < 1.20) return (4)
+            if (r < 1.25) return (5)
+            if (r < 1.30) return (6)
+            if (r < 1.40) return (7)
+            if (r < 1.50) return (8)
+            else return (9)
+            }
+        Kid1:
+          pairwiseFunction: |
+            getLIGHTpref <- function(a1, a2) {	  
+            if (a1$LIGHT < a2$LIGHT) return (1/getLIGHTpref(a2, a1))
+            r <- a1$LIGHT / a2$LIGHT
+            if (r < 1.05) return (1)
+            if (r < 1.10) return (2)
+            if (r < 1.15) return (3)
+            if (r < 1.20) return (4)
+            if (r < 1.25) return (5)
+            if (r < 1.30) return (6)
+            if (r < 1.40) return (7)
+            if (r < 1.50) return (8)
+            else return (9)
+            }
+      children: *alternatives
+    COST:
+      preferences:
+        Dad:
+          pairwiseFunction: |
+            
+            function(a1, a2) min(9, max(1/9, a2$COST/a1$COST))
+        Mom:
+          pairwiseFunction: |
+            
+            function(a1, a2) min(9, max(1/9, a2$COST/a1$COST))
+        Kid1:
+          pairwiseFunction: |
+            function(a1, a2) min(9, max(1/9, a2$COST/a1$COST))
+      children: *alternatives
+    WORK_PROX: 
+      preferences: 
+        Dad:
+          pairwiseFunction: |
+            getWORK_PROXpref <- function(a1, a2) {
+            if (a1$WORK_PROX < a2$WORK_PROX) return (1/getWORK_PROXpref(a2, a1))
+            r <- a1$WORK_PROX / a2$WORK_PROX
+            if (r < 1.2) return (1)
+            if (r < 2.0) return (2)
+            if (r < 3.0) return (3)
+            if (r < 4.0) return (4)
+            if (r < 5.0) return (5)
+            if (r < 6.0) return (6)
+            if (r < 7.0) return (7)
+            if (r < 8.0) return (8)
+            return (9)
+            }	
+        Mom:
+          pairwiseFunction: |
+            getWORK_PROXpref <- function(a1, a2) {
+            if (a1$WORK_PROX < a2$WORK_PROX) return (1/getWORK_PROXpref(a2, a1))
+            r <- a1$WORK_PROX / a2$WORK_PROX
+            if (r < 1.2) return (1)
+            if (r < 2.0) return (2)
+            if (r < 3.0) return (3)
+            if (r < 4.0) return (4)
+            if (r < 5.0) return (5)
+            if (r < 6.0) return (6)
+            if (r < 7.0) return (7)
+            if (r < 8.0) return (8)
+            return (9)
+            }	
+        Kid1:
+          pairwiseFunction: |
+            getWORK_PROXpref <- function(a1, a2) {
+            if (a1$WORK_PROX < a2$WORK_PROX) return (1/getWORK_PROXpref(a2, a1))
+            r <- a1$WORK_PROX / a2$WORK_PROX
+            if (r < 1.2) return (1)
+            if (r < 2.0) return (2)
+            if (r < 3.0) return (3)
+            if (r < 4.0) return (4)
+            if (r < 5.0) return (5)
+            if (r < 6.0) return (6)
+            if (r < 7.0) return (7)
+            if (r < 8.0) return (8)
+            return (9)
+            }	
+      children: *alternatives
+    EE:
+      preferences:
+        Dad:
+          pairwiseFunction: |
+            getEEpref <- function(a1,a2) {
+            if (a1$EE < a2$EE) return (1/getEEpref(a2, a1))	
+            d <- a1$EE - a2$EE
+            if (d < 1.0) return (0)
+            if (d < 2.0) return (1)
+            if (d < 3.0) return (2)
+            if (d < 4.0) return (4)
+            if (d < 5.0) return (6)
+            if (d < 6.0) return (8)
+            return (9)
+            }
+        Mom:
+          pairwiseFunction: |
+            getEEpref <- function(a1,a2) {
+            if (a1$EE < a2$EE) return (1/getEEpref(a2, a1))	
+            d <- a1$EE - a2$EE
+            if (d < 1.0) return (0)
+            if (d < 2.0) return (1)
+            if (d < 3.0) return (2)
+            if (d < 4.0) return (4)
+            if (d < 5.0) return (6)
+            if (d < 6.0) return (8)
+            return (9)
+            }
+        Kid1:
+          pairwiseFunction: |
+            getEEpref <- function(a1,a2) {
+            if (a1$EE < a2$EE) return (1/getEEpref(a2, a1))	
+            d <- a1$EE - a2$EE
+            if (d < 1.0) return (0)
+            if (d < 2.0) return (1)
+            if (d < 3.0) return (2)
+            if (d < 4.0) return (4)
+            if (d < 5.0) return (6)
+            if (d < 6.0) return (8)
+            return (9)
+            }
+      children: *alternatives

@@ -6,7 +6,9 @@ categories: [ financial ]
 ---
 
 
+![Robert Shiller](/images/shiller.jpg)
 
+---
 
 Robert Shiller's forthright novel "The new financial order" expounds on financial innovation in the 21st Century. It could be interesting to compare Shillers ideas of two decades ago with the present developments in financial innovation.
 

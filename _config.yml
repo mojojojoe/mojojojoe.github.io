@@ -6,8 +6,8 @@
 # https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
 # https://learnxinyminutes.com/docs/yaml/
 
-title: The plot of Mojojojoe to take over the world
-description: This is a blog expressing the thoughts of Mojojojoe as he rambles on. It should have finance and technology, a bit on food recipes and adventure.
+title: Mojojojoe's plot to conquer the world
+description: The thoughts of Mojojojoe. It should slowly be populated with finance and technology posts and a bit on food recipes and adventure.
   
 github_username: mojojojoe
 
@@ -16,7 +16,7 @@ email: bruceg72@pm.me
 twitter_username: hewhotwo
 
 # Set this to true to get LaTeX math equation support
-use_math:
+use_math: true
 
 # Add your Google Analytics ID here if you have one and want to use it
 google_analytics:
