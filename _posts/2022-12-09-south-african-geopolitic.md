@@ -4,6 +4,8 @@ title:"A South African perspective on geopolitics"
 author: Bruce R Graham
 categories: [ geopolitics ]
 ---
+# Ideas on the future of Southern Africa
+
 In my geopolitical analysis of the South African situation I come to a conclusion that the only way to turn around and grow the region's prosperity, is for Southern Africa to become a self-sufficient system.
 
 In other words, Southern Africa needs to disengage from the rest of the world, particularly from the "Allied" West, as the global financial system -- by its design -- is made to extract the marrow out of the world.
