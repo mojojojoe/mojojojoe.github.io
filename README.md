@@ -1,3 +1,3 @@
-# Your blog
-
-This is the repository for your blog! Click *_config.yml* above to get started and fill in the details. Then click *index.md* and edit it to start creating your home page.
+This is my blog.
+This blog can be seen at https://mojojojoe.github.io/
+It contains a few articles I wrote to try an up my presence on the internet and display some of my knowledge.
