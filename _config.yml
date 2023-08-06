@@ -13,8 +13,6 @@ github_username: mojojojoe
 
 # Email and twitter are optional:
 email: bruceg72@pm.me
->>>>>>> 8155c4be65c0f88934cd65e6e4ffb203e05f1a98
-
 
 # Set this to true to get LaTeX math equation support
 use_math: true
