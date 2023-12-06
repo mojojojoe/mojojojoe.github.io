@@ -10,9 +10,8 @@ categories: [ finance ]
 
 
 With the great rotation from growth to value stocks, it may be an
-opportune time for the novice to pick up some tips when he finds what he
-thinks may be a good company to invest in. If he is astutute he will go
-ahead and analyse the financial statements and company history.
+opportune time for the novice stock chooser to pick up some tips when, after reading the news, he believes he has spotted a trend in a sector that is promising for growth and wishes to buy shares in a company. If he is astutute he will go
+ahead and analyse the financial statements and company history. I can't recount how often I have made very expensive mistakes by insufficiently researching a stock pick.
 
 But where does the novice start?
 
@@ -28,7 +27,7 @@ not just it's value:
 Having looked at the financial position and the performance of a company
 the *last aspect to be looked at is management*.
 
-Here are some ground rules though:
+Here are some more ground rules:
 • Never judge a company on one year's figures. Always look at 3 or
   ideally 5 year's figures.
 • Never judge a company in isolation. Always compare its performance
