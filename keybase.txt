@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/hewhotwo
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://mojojojoe.github.io
+  * I am hewhotwo (https://keybase.io/hewhotwo) on keybase.
+  * I have a public key ASDMFKsl_4YNe_p9LIZR1em-fF2W8jDPJ9DJ0_eGl1qrjgo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120cc14ab25ff860d7bfa7d2c8651d5e9be7c5d96f230cf27d0c9d3f786975aab8e0a",
+      "host": "keybase.io",
+      "kid": "0120cc14ab25ff860d7bfa7d2c8651d5e9be7c5d96f230cf27d0c9d3f786975aab8e0a",
+      "uid": "b3345c963f341dee9b7f56e33bd89c19",
+      "username": "hewhotwo"
+    },
+    "merkle_root": {
+      "ctime": 1720508464,
+      "hash": "9ee1974337fef641e2344d8643422ec7b0d902beed8b9aa240105033d396ebef5bf60a2368cb51ff3354716b55098f0bf7058ea7e761b5fb9b4d8060b3d303d9",
+      "hash_meta": "72ccc98fa09e97d4e23087a792643955341ac3ed091f4700881c19caf3aff031",
+      "seqno": 25903867
+    },
+    "service": {
+      "entropy": "mOuM89Ngl9JIOfDhdB8R5T0B",
+      "hostname": "mojojojoe.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "6.3.1"
+  },
+  "ctime": 1720508519,
+  "expire_in": 504576000,
+  "prev": "797796386179c03a51fc8a256ff55666e61f29ca3d65c75104403c1498d6b0f8",
+  "seqno": 5,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgzBSrJf+GDXv6fSyGUdXpvnxdlvIwzyfQydP3hpdaq44Kp3BheWxvYWTESpcCBcQgeXeWOGF5wDpR/Iolb/VWZuYfKco9ZcdRBEA8FJjWsPjEIBZWBCol2XWvAM+GVO94OtriaC04TWRiYFXCJ2bg6w/wAgHCo3NpZ8RAXUR+FDT/xgA7cVumy2sttL976JfiI0VIMWSThE0OhZV0jVWEqJqjjeBDnN1Sn7plzwxLKWBvNV8dwA4Xbw1jAqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIDwNTzAbOuxt+jLCc/djnK2Zf/OfCfi5eXyXGHbMV42so3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/hewhotwo
+
+==================================================================
