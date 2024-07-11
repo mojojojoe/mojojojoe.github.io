@@ -1,13 +1,13 @@
 ---
 layout: post 
-title:"Robert Shiller's Financial Innovations"
-author: Bruce R Graham
-categories: [finance, innovation]
+title:Robert Shiller's Financial Innovations
+author: Bruce Graham
+categories: [ ]
 ---
 
-![Robert Shiller](/images/shiller.jpg)
-
 # Financial innovation - revision.
+
+![Robert Shiller](/images/shiller.jpg)
 
 Rewriting the book on financial innovation
 
