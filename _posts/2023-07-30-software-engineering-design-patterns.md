@@ -1,8 +1,8 @@
 ---
 layout: post 
-title:Software engineering design patterns.
+title: "Software engineering design patterns."
 author: Bruce Graham
-categories: [Software engineering]
+categories: [software engineering]
 ---
 
 # Software engineering design patterns
