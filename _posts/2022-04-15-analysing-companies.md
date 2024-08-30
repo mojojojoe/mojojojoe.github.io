@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Analysing companies"
-author: Bruce R Graham
-categories: [ finance ]
+author: Bruce Graham
+categories: [finance]
 ---
 # A novice's guide to analysing a company.
 
