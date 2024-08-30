@@ -5,7 +5,7 @@ author: Bruce Graham
 categories: [finance]
 ---
 
-# Financial innovation - revision.
+# Shiller's Financial Innovations.
 
 ![Robert Shiller](/images/shiller.jpg)
 

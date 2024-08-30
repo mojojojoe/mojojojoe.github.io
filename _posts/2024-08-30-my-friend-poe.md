@@ -7,6 +7,8 @@ categories: [Poetry]
 
 # My Friend Poe
 
+![Poe the Crow](images/Poe.jpg)
+
 Once upon a night, 
 I walked a path in fright,
 where along the Edge I dwelt
