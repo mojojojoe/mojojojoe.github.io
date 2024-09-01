@@ -32,8 +32,5 @@ he found words, and seizing them,
 he stretched to be distorted.
 
 He rose to seize the pain,
-that he carried,
-but he faced the way of perennial sway,
-and always be harried.
-
-
+but he faced the way to perennial sway,
+and always to be harried.
