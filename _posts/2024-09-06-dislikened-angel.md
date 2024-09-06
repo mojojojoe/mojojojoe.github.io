@@ -5,7 +5,7 @@ author: Bruce Graham
 categories: [Poetry]
 ---
 
-# My Friend Poe
+# The Dislikened Angel
 
 Once upon a night,
 I walked in fright.
