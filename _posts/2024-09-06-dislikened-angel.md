@@ -1,6 +1,6 @@
 ---
 layout: post 
-title:My Friend Poe
+title: The Dislikened Angel
 author: Bruce Graham
 categories: [Poetry]
 ---
